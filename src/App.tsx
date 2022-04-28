@@ -1,5 +1,7 @@
+import NaverMap from "./components/naverMap/naverMap";
+
 function App() {
-  return <div className="App"></div>;
+  return <NaverMap />;
 }
 
 export default App;
