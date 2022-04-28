@@ -22,7 +22,9 @@ const NaverMap = () => {
         });
       });
     }
+  }, []);
 
+  useEffect(() => {
     // userLocation으로 이동
     new naver.maps.Map("map", {
       center: new naver.maps.LatLng(
